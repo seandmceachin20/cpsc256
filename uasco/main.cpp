@@ -9,6 +9,7 @@ int main() {
     int N;
     const int size = 30;
     int location[size][size] = {0};
+    int newlocation[size][size] = {0};
 
     infile >> N;
     cout << "N = " << N << endl;
@@ -19,7 +20,7 @@ int main() {
     for (int i = 0; i < N; i++) {
         infile >> dir[i] >> x[i] >> y[i];
         cout << dir[i] << " " << x[i] << " " << y[i] << endl;
-        location[x[i]][y[i]] = i + 1;
+        newlocation[x[i]][y[i]] = i + 1;
     }
 
     int conflict[NN];
@@ -27,13 +28,16 @@ int main() {
         conflict[i]=0;
     }
 
-    bool debug = 0;
+    bool debug = 1;
 
     cout << "----------" << endl;
 
     int moves = 1;
 
     while (moves > 0) {
+
+        copy(&newlocation[0][0],&newlocation[0][0]+size*size,&location[0][0]);
+
         moves = 0;
         for (int i = 0; i < N; i++) {
             if (debug) {
@@ -44,7 +48,7 @@ int main() {
                 //cout << location[x[i]][y[i]+1] << endl;
                 if (y[i] + 1 < size) {
                     if (location[x[i]][y[i] + 1] == 0) {
-                        location[x[i]][y[i] + 1] = i + 1;
+                        newlocation[x[i]][y[i] + 1] = i + 1;
                         moves++;
                     } else {
                         dir[i] = 'S';
@@ -58,7 +62,7 @@ int main() {
                 //cout << location[x[i] + 1][y[i]] << endl;
                 if (x[i] + 1 < size) {
                     if (location[x[i] + 1][y[i]] == 0) {
-                        location[x[i] + 1][y[i]] = i + 1;
+                        newlocation[x[i] + 1][y[i]] = i + 1;
                         moves++;
                     } else {
                         dir[i] = 'S';
@@ -80,6 +84,15 @@ int main() {
     for (int i = 0; i < size; i++) {
         for (int j = 0; j < size; j++) {
             cout << location[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    cout << "-----------" << endl;
+
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+            cout << newlocation[i][j] << " ";
         }
         cout << endl;
     }
