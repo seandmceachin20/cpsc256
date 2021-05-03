@@ -8,7 +8,7 @@ int main() {
     ifstream infile("/Users/brash/CLionProjects/uasco/in.dat");
     int N;
     const int size = 30;
-    int location[size][size];
+    int location[size][size] = {0};
 
     infile >> N;
     cout << "N = " << N << endl;
@@ -23,32 +23,11 @@ int main() {
     }
 
     int conflict[NN];
+    for (int i=0;i<NN;i++){
+        conflict[i]=0;
+    }
 
     bool debug = 0;
-
-    for (int i = 0; i < size; i++) {
-        for (int j = 0; j < size; j++) {
-            location[i][j] = 0;
-            //cout << location[i][j] << " ";
-        }
-        //cout << endl;
-    }
-
-
-
-
-    cout << "----------" << endl;
-
-    for (int i = 0; i < size; i++) {
-        for (int j = 0; j < size; j++) {
-            //cout << location[i][j] << " ";
-        }
-        //cout << endl;
-    }
-
-    for (int i = 0; i < N; i++) {
-        conflict[i] = 0;
-    }
 
     cout << "----------" << endl;
 
@@ -62,7 +41,7 @@ int main() {
             }
             if (dir[i] == 'N') {
                 //cout << "here North" << endl;
-                //cout << location[x[i]][y[i] + 1] << endl;
+                //cout << location[x[i]][y[i]+1] << endl;
                 if (y[i] + 1 < size) {
                     if (location[x[i]][y[i] + 1] == 0) {
                         location[x[i]][y[i] + 1] = i + 1;
