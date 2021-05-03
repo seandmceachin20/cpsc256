@@ -18,7 +18,7 @@ int main() {
 
     for (int i = 0; i < N; i++) {
         infile >> dir[i] >> x[i] >> y[i];
-        //cout << dir << " " << x << " " << y << endl;
+        cout << dir[i] << " " << x[i] << " " << y[i] << endl;
         location[x[i]][y[i]] = i + 1;
     }
 
