@@ -7,19 +7,21 @@ using namespace std;
 int main() {
     ifstream infile("/Users/brash/CLionProjects/uasco/in.dat");
     int N;
-    const int size = 30;
+    const int size = 200;
     int location[size][size] = {0};
     int newlocation[size][size] = {0};
 
+    bool debug = 0;
+
     infile >> N;
-    cout << "N = " << N << endl;
+    if (debug) cout << "N = " << N << endl;
     const int NN = N;
     char dir[NN];
     int x[NN], y[NN];
 
     for (int i = 0; i < N; i++) {
         infile >> dir[i] >> x[i] >> y[i];
-        cout << dir[i] << " " << x[i] << " " << y[i] << endl;
+        if (debug) cout << dir[i] << " " << x[i] << " " << y[i] << endl;
         newlocation[x[i]][y[i]] = i + 1;
     }
 
@@ -28,9 +30,9 @@ int main() {
         conflict[i]=0;
     }
 
-    bool debug = 1;
 
-    cout << "----------" << endl;
+
+    //cout << "----------" << endl;
 
     int moves = 1;
 
@@ -79,25 +81,29 @@ int main() {
         }
     }
 
-    cout << "Moves Final Value = " << moves << endl;
+    if (debug) {
+        cout << "Moves Final Value = " << moves << endl;
+        cout << "-----------" << endl;
 
-    for (int i = 0; i < size; i++) {
-        for (int j = 0; j < size; j++) {
-            cout << location[i][j] << " ";
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                cout << location[i][j] << " ";
+            }
+            cout << endl;
         }
-        cout << endl;
+
+        cout << "-----------" << endl;
+
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                cout << newlocation[i][j] << " ";
+            }
+            cout << endl;
+        }
+
+        cout << "Final Answer: " << endl;
     }
 
-    cout << "-----------" << endl;
-
-    for (int i = 0; i < size; i++) {
-        for (int j = 0; j < size; j++) {
-            cout << newlocation[i][j] << " ";
-        }
-        cout << endl;
-    }
-
-    cout << "Final Answer: " << endl;
     for (int i = 0; i < N; i++) {
         cout << conflict[i] << endl;
     }
