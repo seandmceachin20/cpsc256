@@ -1,0 +1,3 @@
+/Users/brash/CLionProjects/uasco/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/brash/CLionProjects/uasco/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/brash/CLionProjects/uasco/cmake-build-debug/CMakeFiles/uasco.dir
