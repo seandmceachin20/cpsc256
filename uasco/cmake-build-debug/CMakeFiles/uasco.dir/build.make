@@ -79,15 +79,15 @@ include CMakeFiles/uasco.dir/flags.make
 CMakeFiles/uasco.dir/main.cpp.o: CMakeFiles/uasco.dir/flags.make
 CMakeFiles/uasco.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/brash/CLionProjects/uasco/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/uasco.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uasco.dir/main.cpp.o -c /Users/brash/CLionProjects/uasco/main.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uasco.dir/main.cpp.o -c /Users/brash/CLionProjects/uasco/main.cpp
 
 CMakeFiles/uasco.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uasco.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brash/CLionProjects/uasco/main.cpp > CMakeFiles/uasco.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/brash/CLionProjects/uasco/main.cpp > CMakeFiles/uasco.dir/main.cpp.i
 
 CMakeFiles/uasco.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uasco.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brash/CLionProjects/uasco/main.cpp -o CMakeFiles/uasco.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/brash/CLionProjects/uasco/main.cpp -o CMakeFiles/uasco.dir/main.cpp.s
 
 # Object files for target uasco
 uasco_OBJECTS = \
