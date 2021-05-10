@@ -22,7 +22,7 @@ void displayMenu() {
 
 void displayList(Song *songList, int songPointer) {
     cout << "Displaying Current List:" << endl;
-    cout << songPointer << " " << endl;
+    cout << "Number of Songs = " << songPointer << endl;
     for (int j=0;j<songPointer;j++){
         for (int k=0;k<5;k++){
             if (k<4) {
@@ -121,7 +121,6 @@ void writeSongFile(Song *songList, int songPointer) {
 }
 
 int updateList(Song *songList, int songPointer) {
-    songPointer++;
 
     char buffer[80];
 
@@ -155,6 +154,8 @@ int updateList(Song *songList, int songPointer) {
     strcat(songList[songPointer].Field[4],buffer);
     cout << songList[songPointer].Field[4] << endl;
     songList[songPointer].FieldLength[4]=strlen(songList[songPointer].Field[4]);
+
+    songPointer++;
 
     return songPointer;
 }
@@ -206,7 +207,9 @@ int main() {
                 break;
             case 'E':
             case 'e':
-                cout << "Choice E:" << endl;
+                cout << "Choose a Play List" << endl;
+                cout << "Function not implemented yet!" << endl;
+                cout << endl;
                 break;
             case 'F':
             case 'f':
