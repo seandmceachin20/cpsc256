@@ -5,10 +5,11 @@
 using namespace std;
 
 const unsigned int BUFFER_SIZE=80;
+const unsigned int FIELDS = 5;
 
 struct Song {
-    char Field[5][BUFFER_SIZE];
-    int FieldLength[5];
+    char Field[FIELDS][BUFFER_SIZE] = {0};
+    int FieldLength[FIELDS] = {0};
 };
 
 void displayMenu() {
@@ -24,8 +25,8 @@ void displayList(Song *songList, int songPointer) {
     cout << "Displaying Current List:" << endl;
     cout << "Number of Songs = " << songPointer << endl;
     for (int j=0;j<songPointer;j++){
-        for (int k=0;k<5;k++){
-            if (k<4) {
+        for (int k=0;k<FIELDS;k++){
+            if (k<(FIELDS-1)) {
                 cout << songList[j].Field[k] << "|";
             }else{
                 cout << songList[j].Field[k];
@@ -59,8 +60,8 @@ int readSongFile(Song *songList, int songPointer) {
                 songList[songPointer].Field[field][ipos] = '\0';
                 field++;
                 ipos = 0;
-                cout << "Delimiter match!!!!" << endl;
-                cout << songPointer << " " << field << " " << ipos << endl;
+                //cout << "Delimiter match!!!!" << endl;
+                //cout << songPointer << " " << field << " " << ipos << endl;
             } else {
                 if (strcmp(&buffer, endOfLine) == 10) {
                     songList[songPointer].FieldLength[field] = ipos;
@@ -68,10 +69,10 @@ int readSongFile(Song *songList, int songPointer) {
                     field = 0;
                     ipos = 0;
                     songPointer++;
-                    cout << "End of entry" << endl;
+                    //cout << "End of entry" << endl;
                 } else {
-                    cout << ipos << " " << buffer << " " << strcmp(&buffer, delimiter) << " "
-                         << strcmp(&buffer, endOfLine) << endl;
+                    //cout << ipos << " " << buffer << " " << strcmp(&buffer, delimiter) << " "
+                    //     << strcmp(&buffer, endOfLine) << endl;
                     songList[songPointer].Field[field][ipos] = buffer;
                     ipos++;
                 }
@@ -103,8 +104,8 @@ void writeSongFile(Song *songList, int songPointer) {
         field = 0;
         ipos = 0;
         for (int j=0;j<songPointer;j++){
-            for (int k=0;k<5;k++){
-                if (k<4) {
+            for (int k=0;k<FIELDS;k++){
+                if (k<(FIELDS-1)) {
                     out << songList[j].Field[k] << "|";
                 }else{
                     out << songList[j].Field[k];
@@ -124,36 +125,19 @@ int updateList(Song *songList, int songPointer) {
 
     char buffer[80];
 
-    cout << "Enter the Artist Name: ";
+    const char *message[5] = { "Enter the Artist Name: ", "Enter the Song Title: ",
+                              "Enter the Song Type: ", "Enter the Task Type: ", "Enter the Song Link URL: " };
+
     cin.ignore();
-    cin.getline(buffer,79,'\n');
-    strcat(songList[songPointer].Field[0],buffer);
-    cout << songList[songPointer].Field[0] << endl;
-    songList[songPointer].FieldLength[0]=strlen(songList[songPointer].Field[0]);
-
-    cout << "Enter the Song Title: ";
-    cin.getline(buffer,79,'\n');
-    strcat(songList[songPointer].Field[1],buffer);
-    cout << songList[songPointer].Field[1] << endl;
-    songList[songPointer].FieldLength[1]=strlen(songList[songPointer].Field[1]);
-
-    cout << "Enter the Song Type: ";
-    cin.getline(buffer,79,'\n');
-    strcat(songList[songPointer].Field[2],buffer);
-    cout << songList[songPointer].Field[2] << endl;
-    songList[songPointer].FieldLength[2]=strlen(songList[songPointer].Field[2]);
-
-    cout << "Enter the Task Type ";
-    cin.getline(buffer,79,'\n');
-    strcat(songList[songPointer].Field[3],buffer);
-    cout << songList[songPointer].Field[3] << endl;
-    songList[songPointer].FieldLength[3]=strlen(songList[songPointer].Field[3]);
-
-    cout << "Enter the Song Link URL: ";
-    cin.getline(buffer,79,'\n');
-    strcat(songList[songPointer].Field[4],buffer);
-    cout << songList[songPointer].Field[4] << endl;
-    songList[songPointer].FieldLength[4]=strlen(songList[songPointer].Field[4]);
+    for (int k=0; k<FIELDS;k++) {
+        cout << message[k];
+        cin.getline(buffer, BUFFER_SIZE - 1, '\n');
+        //cout << buffer << endl;
+        strcat(songList[songPointer].Field[k], buffer);
+        //cout << songList[songPointer].Field[k] << endl;
+        songList[songPointer].FieldLength[k] = strlen(songList[songPointer].Field[k]);
+        //cout << songList[songPointer].FieldLength[k] << endl;
+    }
 
     songPointer++;
 
