@@ -123,7 +123,7 @@ void writeSongFile(Song *songList, int songPointer) {
 
 int updateList(Song *songList, int songPointer) {
 
-    char buffer[80];
+    char buffer[BUFFER_SIZE];
 
     const char *message[5] = { "Enter the Artist Name: ", "Enter the Song Title: ",
                               "Enter the Song Type: ", "Enter the Task Type: ", "Enter the Song Link URL: " };
@@ -144,20 +144,35 @@ int updateList(Song *songList, int songPointer) {
     return songPointer;
 }
 
+int createPlayList(Song *songList, int songPointer, Song *playList, int playPointer) {
+
+    char buffer[BUFFER_SIZE];
+    cout << "Enter the Task Key Word for Play List Creation: " << endl;
+    cin.ignore();
+    cin.getline(buffer,BUFFER_SIZE-1,'\n');
+    cout << buffer << endl;
+
+    for (int i=0; i<songPointer;i++) {
+        if (strcmp(buffer, songList[i].Field[3])==0) {
+            playList[playPointer] = songList[i];
+            playPointer++;
+        }
+    }
+
+    return playPointer;
+}
+
 int main() {
 
     int loopStatus = 0;
     char menuChoice[BUFFER_SIZE];
 
-    char songOutListFileName[] = "/Users/brash/CLionProjects/MusicMenu/songOutList.txt";
-
-    ofstream out(songOutListFileName);
-    cout << "Output File Status: " << out.is_open() << endl;
-    cout << endl;
-
     Song songList[10];
+    Song playList[10];
 
     int songPointer = 0;
+    int playPointer = 0;
+
     int readStatus = 0;
 
     while (!loopStatus) {
@@ -192,7 +207,9 @@ int main() {
             case 'E':
             case 'e':
                 cout << "Choose a Play List" << endl;
-                cout << "Function not implemented yet!" << endl;
+                playPointer = 0;
+                playPointer = createPlayList(songList,songPointer,playList,playPointer);
+                displayList(playList,playPointer);
                 cout << endl;
                 break;
             case 'F':
