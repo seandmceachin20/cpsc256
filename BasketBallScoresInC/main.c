@@ -68,8 +68,9 @@ int readData(struct PlayerData *myPlayers, int playerPointer){
 }
 
 void displayData(struct PlayerData *myPlayers, int playerPointer) {
+    int i;
     printf("      Name            Month           Day            Year           Points \n");
-    for (int i=0;i<playerPointer;i++) {
+    for (i=0;i<playerPointer;i++) {
         printf("      %s            %d            %d            %d            %d \n",myPlayers[i].Name,myPlayers[i].Month,
                myPlayers[i].Day,myPlayers[i].Year,myPlayers[i].Points);
     }
@@ -163,8 +164,9 @@ void calculateAveragePoints(struct PlayerData *myPlayers, int playerPointer) {
     int totalPoints = 0;
     int totalGames = 0;
     float averagePoints;
+    int i;
 
-    for (int i=0; i<playerPointer;i++) {
+    for (i=0; i<playerPointer;i++) {
 
         int startDateCompare;
         int endDateCompare;
