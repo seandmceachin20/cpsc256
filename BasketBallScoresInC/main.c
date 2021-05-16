@@ -11,7 +11,7 @@ const char delimiter1[] = ",";
 const char delimiter2[] = "/";
 
 struct PlayerData {
-    char Name[BUFFER_SIZE];
+    char Name[80];
     int Year;
     int Month;
     int Day;
