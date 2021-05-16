@@ -67,6 +67,40 @@ void displayData(PlayerData *myPlayers, int playerPointer) {
     }
 }
 
+int compare_dates(int m1,int d1,int y1,int m2,int d2,int y2) {
+
+    if (y1 < y2) {
+        return -1;
+    } else {
+        if (y1 > y2) {
+            return 1;
+        }
+    }
+
+    if (y1 == y2) {
+        if (m1 < m2) {
+            return -1;
+        } else {
+            if (m1 > m2) {
+                return 1;
+            } else {
+                if (d1 < d2) {
+                    return -1;
+                } else {
+                    if (d1 > d2) {
+                        return 1;
+                    } else {
+                        return 0;
+                    }
+                }
+            }
+        }
+    }
+
+    return -2; /* should never get here! */
+}
+
+
 void calculateAveragePoints(PlayerData *myPlayers, int playerPointer) {
 
     string playerName, startDate, endDate;
@@ -113,16 +147,25 @@ void calculateAveragePoints(PlayerData *myPlayers, int playerPointer) {
     int totalGames = 0;
     float averagePoints;
 
+    cout << endl;
+
+    cout << setw(20) << "Name" << setw(10) << "Month" <<  setw(10) << "Day" << setw(10) <<
+         "Year" << setw(10) << "Points" << endl;
+
     for (int i=0; i<playerPointer;i++) {
 
+        int startDateCompare;
+        int endDateCompare;
+
         if (myPlayers[i].Name == playerName) {
-            if (myPlayers[i].Year >= sy && myPlayers[i].Month >= sm && myPlayers[i].Day >= sd) {
-                if (myPlayers[i].Year <= ey && myPlayers[i].Month <= em && myPlayers[i].Day <= ed) {
-                    cout << "Name: " << myPlayers[i].Name << " Date: " << myPlayers[i].Month << "/"
-                        << myPlayers[i].Day << "/" << myPlayers[i].Year << " Points: " << myPlayers[i].Points << endl;
+            startDateCompare = compare_dates(myPlayers[i].Month,myPlayers[i].Day,myPlayers[i].Year,sm,sd,sy);
+            endDateCompare = compare_dates(myPlayers[i].Month,myPlayers[i].Day,myPlayers[i].Year,em,ed,ey);
+
+            if (startDateCompare >= 0 && endDateCompare <= -0) {
+                    cout << setw(20) << myPlayers[i].Name << setw(10) << myPlayers[i].Month <<  setw(10) << myPlayers[i].Day << setw(10) <<
+                         myPlayers[i].Year << setw(10) << myPlayers[i].Points << endl;
                     totalPoints = totalPoints + myPlayers[i].Points;
-                    totalGames = totalGames + 1;
-                 }
+                    totalGames++;
             }
         }
 
