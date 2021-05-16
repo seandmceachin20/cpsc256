@@ -20,7 +20,7 @@ struct PlayerData {
 
 int readData(struct PlayerData *myPlayers, int playerPointer){
 
-    char playerDataFileName[] = "/Users/brash/CLionProjects/BasketBallScores/test.csv";
+    char playerDataFileName[] = "/Users/brash/CLionProjects/BasketBallScoresInC/test.csv";
     FILE * in;
     in = fopen(playerDataFileName,"r");
 
