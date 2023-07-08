@@ -1,4 +1,0 @@
-Bruce Springsteen|Dancing in the Dark|Eighties|Coding|https://www.youtube.com/watch?v=129kuDCQtHs
-Bruce Springsteen|Racing in the Street|SlowJam|Coding|https://www.youtube.com/watch?v=fT4pSt4kie8
-The Eagles|The Last Resort|SlowJam|Tests|https://www.youtube.com/watch?v=GP6RBnosvVY
-The Ramones|I Want to be Sedated|Punk|Coding|https://www.youtube.com/watch?v=bm51ihfi1p4
