@@ -201,6 +201,68 @@ build MultipleClasses: CXX_EXECUTABLE_LINKER__MultipleClasses_Debug CMakeFiles/M
   TARGET_FILE = MultipleClasses
   TARGET_PDB = MultipleClasses.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target BasicPointers
+
+
+#############################################
+# Order-only phony target for BasicPointers
+
+build cmake_object_order_depends_target_BasicPointers: phony || CMakeFiles/BasicPointers.dir
+
+build CMakeFiles/BasicPointers.dir/BasicPointers/main.c.o: C_COMPILER__BasicPointers_Debug /Users/brash/CLionProjects/cpsc256/BasicPointers/main.c || cmake_object_order_depends_target_BasicPointers
+  DEP_FILE = CMakeFiles/BasicPointers.dir/BasicPointers/main.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/BasicPointers.dir
+  OBJECT_FILE_DIR = CMakeFiles/BasicPointers.dir/BasicPointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BasicPointers
+
+
+#############################################
+# Link the executable BasicPointers
+
+build BasicPointers: C_EXECUTABLE_LINKER__BasicPointers_Debug CMakeFiles/BasicPointers.dir/BasicPointers/main.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/BasicPointers.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = BasicPointers
+  TARGET_PDB = BasicPointers.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target GitHubCoPilot
+
+
+#############################################
+# Order-only phony target for GitHubCoPilot
+
+build cmake_object_order_depends_target_GitHubCoPilot: phony || CMakeFiles/GitHubCoPilot.dir
+
+build CMakeFiles/GitHubCoPilot.dir/GitHubCoPilot/main.cpp.o: CXX_COMPILER__GitHubCoPilot_Debug /Users/brash/CLionProjects/cpsc256/GitHubCoPilot/main.cpp || cmake_object_order_depends_target_GitHubCoPilot
+  DEP_FILE = CMakeFiles/GitHubCoPilot.dir/GitHubCoPilot/main.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/GitHubCoPilot.dir
+  OBJECT_FILE_DIR = CMakeFiles/GitHubCoPilot.dir/GitHubCoPilot
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target GitHubCoPilot
+
+
+#############################################
+# Link the executable GitHubCoPilot
+
+build GitHubCoPilot: CXX_EXECUTABLE_LINKER__GitHubCoPilot_Debug CMakeFiles/GitHubCoPilot.dir/GitHubCoPilot/main.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/GitHubCoPilot.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = GitHubCoPilot
+  TARGET_PDB = GitHubCoPilot.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -235,7 +297,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld HelloWorldCPP Declarations BasicLinkedList MultipleClasses
+build all: phony HelloWorld HelloWorldCPP Declarations BasicLinkedList MultipleClasses BasicPointers GitHubCoPilot
 
 # =============================================================================
 # Built-in targets

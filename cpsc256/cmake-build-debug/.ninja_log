@@ -1,16 +1,20 @@
 # ninja log v5
 1159	1270	1689861167900280267	HelloWorldCPP	31efd8b31b960119
 2	166	1689861191439705502	CMakeFiles/Declarations.dir/Declarations/main.c.o	d8f3520c24cec621
-1	114	1689861909610110902	build.ninja	bb282a898cd6eae
-776	867	1689861680924541953	MultipleClasses	288f9b35291c364c
 3	1103	1689860952557194544	CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/Artist.cpp.o	34aae85827971aaf
-5	1047	1689860952502612287	CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/Artwork.cpp.o	cba50c3b4cfb9726
+1	114	1689866582048886793	build.ninja	bb282a898cd6eae
+776	867	1689861680924541953	MultipleClasses	288f9b35291c364c
+0	112	1689862182523665921	CMakeFiles/BasicPointers.dir/BasicPointers/main.c.o	a30661004d34fe11
 19	1159	1689861167784007076	CMakeFiles/HelloWorldCPP.dir/HelloWorldCPP/main.cpp.o	c2514787ecbe659d
 14	776	1689861680833829195	CMakeFiles/MultipleClasses.dir/MultipleClasses/main.cpp.o	ccd8650b757f3a96
+5	1047	1689860952502612287	CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/Artwork.cpp.o	cba50c3b4cfb9726
 166	324	1689861191598706048	Declarations	b65e228b0f60c425
-1	933	1689861361616465648	CMakeFiles/BasicLinkedList.dir/BasicLinkedList/main.cpp.o	1c1bece30aab2206
-1	934	1689861361617713810	CMakeFiles/BasicLinkedList.dir/BasicLinkedList/IntNode.cpp.o	79fe02f03c0cb8cb
-0	1141	1689860952598340430	CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/main.cpp.o	98c9a61cd6f7066f
-934	1029	1689861361714422845	BasicLinkedList	4f187a991cda2ef0
 0	95	1689861937826501087	CMakeFiles/HelloWorld.dir/HelloWorld/main.c.o	9b195a4df0a344bb
+0	1141	1689860952598340430	CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/main.cpp.o	98c9a61cd6f7066f
+112	209	1689862182619242737	BasicPointers	58a811fd0b5068b1
+934	1029	1689861361714422845	BasicLinkedList	4f187a991cda2ef0
+1	934	1689861361617713810	CMakeFiles/BasicLinkedList.dir/BasicLinkedList/IntNode.cpp.o	79fe02f03c0cb8cb
+1	933	1689861361616465648	CMakeFiles/BasicLinkedList.dir/BasicLinkedList/main.cpp.o	1c1bece30aab2206
 95	181	1689861937910762173	HelloWorld	d424ff2b60ec3ff
+1	1206	1689867491235221031	CMakeFiles/GitHubCoPilot.dir/GitHubCoPilot/main.cpp.o	f455a8b1ae7855b7
+1206	1340	1689867491370819745	GitHubCoPilot	708b6fadde899278
