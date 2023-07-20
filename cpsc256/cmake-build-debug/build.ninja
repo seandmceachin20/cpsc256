@@ -41,6 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/brash/CLionProjects/cpsc256/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target HelloWorld
+
+
+#############################################
+# Order-only phony target for HelloWorld
+
+build cmake_object_order_depends_target_HelloWorld: phony || CMakeFiles/HelloWorld.dir
+
+build CMakeFiles/HelloWorld.dir/HelloWorld/main.c.o: C_COMPILER__HelloWorld_Debug /Users/brash/CLionProjects/cpsc256/HelloWorld/main.c || cmake_object_order_depends_target_HelloWorld
+  DEP_FILE = CMakeFiles/HelloWorld.dir/HelloWorld/main.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/HelloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/HelloWorld.dir/HelloWorld
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HelloWorld
+
+
+#############################################
+# Link the executable HelloWorld
+
+build HelloWorld: C_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorld.dir/HelloWorld/main.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/HelloWorld.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = HelloWorld
+  TARGET_PDB = HelloWorld.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target HelloWorldCPP
 
 
@@ -204,7 +235,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorldCPP Declarations BasicLinkedList MultipleClasses
+build all: phony HelloWorld HelloWorldCPP Declarations BasicLinkedList MultipleClasses
 
 # =============================================================================
 # Built-in targets

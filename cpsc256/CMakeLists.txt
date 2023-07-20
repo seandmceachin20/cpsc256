@@ -3,6 +3,7 @@ project(cpsc256)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_executable(HelloWorld HelloWorld/main.c)
 add_executable(HelloWorldCPP HelloWorldCPP/main.cpp)
 add_executable(Declarations Declarations/main.c)
 add_executable(BasicLinkedList BasicLinkedList/main.cpp BasicLinkedList/IntNode.cpp)
