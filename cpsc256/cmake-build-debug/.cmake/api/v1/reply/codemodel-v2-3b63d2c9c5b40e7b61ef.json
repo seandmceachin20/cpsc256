@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpsc256",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BasicLinkedList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BasicLinkedList-Debug-572acaea5fb26eaf019c.json",
+					"name" : "BasicLinkedList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Declarations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Declarations-Debug-16bf19e535bcda7c01e1.json",
+					"name" : "Declarations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HelloWorldCPP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HelloWorldCPP-Debug-f3a5dcfc93d907db82a1.json",
+					"name" : "HelloWorldCPP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MultipleClasses::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MultipleClasses-Debug-f5cf4e8a2f0c4af928e6.json",
+					"name" : "MultipleClasses",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/brash/CLionProjects/cpsc256/cmake-build-debug",
+		"source" : "/Users/brash/CLionProjects/cpsc256"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
