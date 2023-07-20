@@ -11,10 +11,10 @@
  */
 
 #include <cstdlib>
-#include "Metric.h"
 #include "Imperial.h"
+#include "Metric.h"
 
-using namespace Metric;
+using namespace Imperial;
 
 /*
  * 
