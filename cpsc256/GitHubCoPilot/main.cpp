@@ -1,23 +1,18 @@
-#include<iostream>
-
+#include "iostream"
 using namespace std;
 
-// write main program
-double add(double x, double y) {
-
-    double z = x + y;
-
-    return z;
-
+double add(double a, double b) {
+  return a + b;
 }
 
 int main(int argc, char** argv) {
+  // write code here
+  cout << "Hello World!" << endl;
 
-    // write code here
-    cout << "Hello World!!!!\n";
-    double x = 10.0, y = 20.0;
-    double z = add(x,y);
-    cout << "x = " << x << ", y = " << y << ", z = " << z << endl;
+  double x = 1.0;
+  double y = 2.0;
+  double z = add(x, y);
+  cout << "z = " << z << endl;
 
-    return (EXIT_SUCCESS);
+  return 0;
 }
