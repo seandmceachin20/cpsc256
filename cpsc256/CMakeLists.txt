@@ -10,3 +10,4 @@ add_executable(BasicLinkedList BasicLinkedList/main.cpp BasicLinkedList/IntNode.
 add_executable(MultipleClasses MultipleClasses/main.cpp)
 add_executable(BasicPointers BasicPointers/main.c)
 add_executable(GitHubCoPilot GitHubCoPilot/main.cpp)
+add_executable(ArtistAndArtwork ArtistAndArtwork/main.cpp ArtistAndArtwork/Artist.cpp ArtistAndArtwork/Artwork.cpp)

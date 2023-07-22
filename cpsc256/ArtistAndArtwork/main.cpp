@@ -23,14 +23,11 @@ int main(int argc, char** argv) {
    string userTitle, userArtistName;
    int yearCreated, userBirthYear, userDeathYear;
 
-   getline(cin, userArtistName);
-   cin >> userBirthYear;
-   cin.ignore();
-   cin >> userDeathYear;
-   cin.ignore();
-   getline(cin, userTitle);
-   cin >> yearCreated;
-   cin.ignore();
+    getline(cin, userArtistName);
+    getline(cin, userTitle);
+    cin >> userBirthYear;
+    cin >> userDeathYear;
+    cin >> yearCreated;
 
    Artist userArtist =  Artist(userArtistName, userBirthYear, userDeathYear);
 

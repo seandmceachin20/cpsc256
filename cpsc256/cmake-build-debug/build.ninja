@@ -263,6 +263,49 @@ build GitHubCoPilot: CXX_EXECUTABLE_LINKER__GitHubCoPilot_Debug CMakeFiles/GitHu
   TARGET_FILE = GitHubCoPilot
   TARGET_PDB = GitHubCoPilot.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ArtistAndArtwork
+
+
+#############################################
+# Order-only phony target for ArtistAndArtwork
+
+build cmake_object_order_depends_target_ArtistAndArtwork: phony || CMakeFiles/ArtistAndArtwork.dir
+
+build CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/main.cpp.o: CXX_COMPILER__ArtistAndArtwork_Debug /Users/brash/CLionProjects/cpsc256/ArtistAndArtwork/main.cpp || cmake_object_order_depends_target_ArtistAndArtwork
+  DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/main.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
+  OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork
+
+build CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/Artist.cpp.o: CXX_COMPILER__ArtistAndArtwork_Debug /Users/brash/CLionProjects/cpsc256/ArtistAndArtwork/Artist.cpp || cmake_object_order_depends_target_ArtistAndArtwork
+  DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/Artist.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
+  OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork
+
+build CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/Artwork.cpp.o: CXX_COMPILER__ArtistAndArtwork_Debug /Users/brash/CLionProjects/cpsc256/ArtistAndArtwork/Artwork.cpp || cmake_object_order_depends_target_ArtistAndArtwork
+  DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/Artwork.cpp.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
+  OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArtistAndArtwork
+
+
+#############################################
+# Link the executable ArtistAndArtwork
+
+build ArtistAndArtwork: CXX_EXECUTABLE_LINKER__ArtistAndArtwork_Debug CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/main.cpp.o CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/Artist.cpp.o CMakeFiles/ArtistAndArtwork.dir/ArtistAndArtwork/Artwork.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ArtistAndArtwork
+  TARGET_PDB = ArtistAndArtwork.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -297,7 +340,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld HelloWorldCPP Declarations BasicLinkedList MultipleClasses BasicPointers GitHubCoPilot
+build all: phony HelloWorld HelloWorldCPP Declarations BasicLinkedList MultipleClasses BasicPointers GitHubCoPilot ArtistAndArtwork
 
 # =============================================================================
 # Built-in targets

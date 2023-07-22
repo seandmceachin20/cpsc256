@@ -30,9 +30,11 @@ class Artwork{
    
    private:
       // TODO: Declare private data members - title, yearCreated
+      string title;
+      int yearCreated;
 
       // TODO: Declare private data member artist of type Artist
-
+      Artist artist;
 };
 
 #endif /* ARTWORK_H */
