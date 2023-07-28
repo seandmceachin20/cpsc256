@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.25)
 project(cpsc256)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_C_STANDARD 99)
 
 add_executable(HelloWorld HelloWorld/main.c)
 add_executable(HelloWorldCPP HelloWorldCPP/main.cpp)
@@ -11,3 +12,5 @@ add_executable(MultipleClasses MultipleClasses/main.cpp)
 add_executable(BasicPointers BasicPointers/main.c)
 add_executable(GitHubCoPilot GitHubCoPilot/main.cpp)
 add_executable(ArtistAndArtwork ArtistAndArtwork/main.cpp ArtistAndArtwork/Artist.cpp ArtistAndArtwork/Artwork.cpp)
+add_executable(PointerCar PointerCar/main.c PointerCar/PointerCar.c)
+add_executable(SimpleCar SimpleCar/main.c SimpleCar/SimpleCar.c)
