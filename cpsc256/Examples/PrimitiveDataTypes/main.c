@@ -15,9 +15,6 @@
 #include <float.h>
 #include <math.h>
 
-/*
- * 
- */
 int main(int argc, char** argv) {
     
     printf("CHAR_BIT    :   %d\n", CHAR_BIT);
