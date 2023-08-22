@@ -103,6 +103,68 @@ build PrimitiveDataTypes: C_EXECUTABLE_LINKER__PrimitiveDataTypes_Debug CMakeFil
   TARGET_PDB = PrimitiveDataTypes.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target FloatingPointBinaryRepresentation
+
+
+#############################################
+# Order-only phony target for FloatingPointBinaryRepresentation
+
+build cmake_object_order_depends_target_FloatingPointBinaryRepresentation: phony || CMakeFiles/FloatingPointBinaryRepresentation.dir
+
+build CMakeFiles/FloatingPointBinaryRepresentation.dir/Examples/Other_Examples/FloattingPointBinaryRepresentation/main.c.o: C_COMPILER__FloatingPointBinaryRepresentation_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloattingPointBinaryRepresentation/main.c || cmake_object_order_depends_target_FloatingPointBinaryRepresentation
+  DEP_FILE = CMakeFiles/FloatingPointBinaryRepresentation.dir/Examples/Other_Examples/FloattingPointBinaryRepresentation/main.c.o.d
+  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/FloatingPointBinaryRepresentation.dir
+  OBJECT_FILE_DIR = CMakeFiles/FloatingPointBinaryRepresentation.dir/Examples/Other_Examples/FloattingPointBinaryRepresentation
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FloatingPointBinaryRepresentation
+
+
+#############################################
+# Link the executable FloatingPointBinaryRepresentation
+
+build FloatingPointBinaryRepresentation: C_EXECUTABLE_LINKER__FloatingPointBinaryRepresentation_Debug CMakeFiles/FloatingPointBinaryRepresentation.dir/Examples/Other_Examples/FloattingPointBinaryRepresentation/main.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/FloatingPointBinaryRepresentation.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = FloatingPointBinaryRepresentation
+  TARGET_PDB = FloatingPointBinaryRepresentation.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FloatingPointBinary64
+
+
+#############################################
+# Order-only phony target for FloatingPointBinary64
+
+build cmake_object_order_depends_target_FloatingPointBinary64: phony || CMakeFiles/FloatingPointBinary64.dir
+
+build CMakeFiles/FloatingPointBinary64.dir/Examples/Other_Examples/FloatingPoint64/main.c.o: C_COMPILER__FloatingPointBinary64_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Other_Examples/FloatingPoint64/main.c || cmake_object_order_depends_target_FloatingPointBinary64
+  DEP_FILE = CMakeFiles/FloatingPointBinary64.dir/Examples/Other_Examples/FloatingPoint64/main.c.o.d
+  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/FloatingPointBinary64.dir
+  OBJECT_FILE_DIR = CMakeFiles/FloatingPointBinary64.dir/Examples/Other_Examples/FloatingPoint64
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FloatingPointBinary64
+
+
+#############################################
+# Link the executable FloatingPointBinary64
+
+build FloatingPointBinary64: C_EXECUTABLE_LINKER__FloatingPointBinary64_Debug CMakeFiles/FloatingPointBinary64.dir/Examples/Other_Examples/FloatingPoint64/main.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/FloatingPointBinary64.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = FloatingPointBinary64
+  TARGET_PDB = FloatingPointBinary64.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target HelloWorldCPP
 
 
@@ -451,7 +513,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld PrimitiveDataTypes HelloWorldCPP Declarations BasicLinkedList MultipleClasses BasicPointers GitHubCoPilot ArtistAndArtwork PointerCar SimpleCar
+build all: phony HelloWorld PrimitiveDataTypes FloatingPointBinaryRepresentation FloatingPointBinary64 HelloWorldCPP Declarations BasicLinkedList MultipleClasses BasicPointers GitHubCoPilot ArtistAndArtwork PointerCar SimpleCar
 
 # =============================================================================
 # Built-in targets

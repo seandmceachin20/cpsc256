@@ -6,6 +6,8 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(HelloWorld Examples/HelloWorld/main.c)
 add_executable(PrimitiveDataTypes Examples/PrimitiveDataTypes/main.c)
+add_executable(FloatingPointBinaryRepresentation Examples/Other_Examples/FloattingPointBinaryRepresentation/main.c)
+add_executable(FloatingPointBinary64 Examples/Other_Examples/FloatingPoint64/main.c)
 add_executable(HelloWorldCPP Examples/HelloWorldCPP/main.cpp)
 add_executable(Declarations Examples/Declarations/main.c)
 add_executable(BasicLinkedList Examples/BasicLinkedList/main.cpp Examples/BasicLinkedList/IntNode.cpp)
