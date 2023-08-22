@@ -6,6 +6,9 @@
  * 
  */
 
+// This is a comment, also known as a "single line comment"
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
