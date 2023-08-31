@@ -123,14 +123,14 @@ build CMakeFiles/FileReader.dir/Examples/Week2/FileReader/main.c.o: C_COMPILER__
 
 
 #############################################
-# Link the executable FileReader
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader
 
-build FileReader: C_EXECUTABLE_LINKER__FileReader_Debug CMakeFiles/FileReader.dir/Examples/Week2/FileReader/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader: C_EXECUTABLE_LINKER__FileReader_Debug CMakeFiles/FileReader.dir/Examples/Week2/FileReader/main.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/FileReader.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = FileReader
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader
   TARGET_PDB = FileReader.dbg
 
 # =============================================================================
@@ -154,14 +154,14 @@ build CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader/main.c.o: C_COMP
 
 
 #############################################
-# Link the executable CSVFileReader
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader
 
-build CSVFileReader: C_EXECUTABLE_LINKER__CSVFileReader_Debug CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader: C_EXECUTABLE_LINKER__CSVFileReader_Debug CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader/main.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/CSVFileReader.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = CSVFileReader
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader
   TARGET_PDB = CSVFileReader.dbg
 
 # =============================================================================
@@ -185,14 +185,14 @@ build CMakeFiles/Declarations.dir/Examples/Week2/Declarations/main.c.o: C_COMPIL
 
 
 #############################################
-# Link the executable Declarations
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations
 
-build Declarations: C_EXECUTABLE_LINKER__Declarations_Debug CMakeFiles/Declarations.dir/Examples/Week2/Declarations/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations: C_EXECUTABLE_LINKER__Declarations_Debug CMakeFiles/Declarations.dir/Examples/Week2/Declarations/main.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/Declarations.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = Declarations
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations
   TARGET_PDB = Declarations.dbg
 
 # =============================================================================
@@ -216,14 +216,14 @@ build CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o: 
 
 
 #############################################
-# Link the executable FormatSpecifiers
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers
 
-build FormatSpecifiers: C_EXECUTABLE_LINKER__FormatSpecifiers_Debug CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers: C_EXECUTABLE_LINKER__FormatSpecifiers_Debug CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/FormatSpecifiers.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = FormatSpecifiers
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers
   TARGET_PDB = FormatSpecifiers.dbg
 
 # =============================================================================
@@ -247,14 +247,14 @@ build CMakeFiles/HelloWorldCPP.dir/Examples/HelloWorldCPP/main.cpp.o: CXX_COMPIL
 
 
 #############################################
-# Link the executable HelloWorldCPP
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/HelloWorldCPP
 
-build HelloWorldCPP: CXX_EXECUTABLE_LINKER__HelloWorldCPP_Debug CMakeFiles/HelloWorldCPP.dir/Examples/HelloWorldCPP/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/HelloWorldCPP: CXX_EXECUTABLE_LINKER__HelloWorldCPP_Debug CMakeFiles/HelloWorldCPP.dir/Examples/HelloWorldCPP/main.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/HelloWorldCPP.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = HelloWorldCPP
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/HelloWorldCPP
   TARGET_PDB = HelloWorldCPP.dbg
 
 # =============================================================================
@@ -284,14 +284,14 @@ build CMakeFiles/BasicLinkedList.dir/Examples/BasicLinkedList/IntNode.cpp.o: CXX
 
 
 #############################################
-# Link the executable BasicLinkedList
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/BasicLinkedList
 
-build BasicLinkedList: CXX_EXECUTABLE_LINKER__BasicLinkedList_Debug CMakeFiles/BasicLinkedList.dir/Examples/BasicLinkedList/main.cpp.o CMakeFiles/BasicLinkedList.dir/Examples/BasicLinkedList/IntNode.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/BasicLinkedList: CXX_EXECUTABLE_LINKER__BasicLinkedList_Debug CMakeFiles/BasicLinkedList.dir/Examples/BasicLinkedList/main.cpp.o CMakeFiles/BasicLinkedList.dir/Examples/BasicLinkedList/IntNode.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/BasicLinkedList.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = BasicLinkedList
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/BasicLinkedList
   TARGET_PDB = BasicLinkedList.dbg
 
 # =============================================================================
@@ -315,14 +315,14 @@ build CMakeFiles/MultipleClasses.dir/Examples/MultipleClasses/main.cpp.o: CXX_CO
 
 
 #############################################
-# Link the executable MultipleClasses
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/MultipleClasses
 
-build MultipleClasses: CXX_EXECUTABLE_LINKER__MultipleClasses_Debug CMakeFiles/MultipleClasses.dir/Examples/MultipleClasses/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/MultipleClasses: CXX_EXECUTABLE_LINKER__MultipleClasses_Debug CMakeFiles/MultipleClasses.dir/Examples/MultipleClasses/main.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/MultipleClasses.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = MultipleClasses
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/MultipleClasses
   TARGET_PDB = MultipleClasses.dbg
 
 # =============================================================================
@@ -346,14 +346,14 @@ build CMakeFiles/BasicPointers.dir/Examples/BasicPointers/main.c.o: C_COMPILER__
 
 
 #############################################
-# Link the executable BasicPointers
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/BasicPointers
 
-build BasicPointers: C_EXECUTABLE_LINKER__BasicPointers_Debug CMakeFiles/BasicPointers.dir/Examples/BasicPointers/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/BasicPointers: C_EXECUTABLE_LINKER__BasicPointers_Debug CMakeFiles/BasicPointers.dir/Examples/BasicPointers/main.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/BasicPointers.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = BasicPointers
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/BasicPointers
   TARGET_PDB = BasicPointers.dbg
 
 # =============================================================================
@@ -377,14 +377,14 @@ build CMakeFiles/GitHubCoPilot.dir/Examples/GitHubCoPilot/main.cpp.o: CXX_COMPIL
 
 
 #############################################
-# Link the executable GitHubCoPilot
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/GitHubCoPilot
 
-build GitHubCoPilot: CXX_EXECUTABLE_LINKER__GitHubCoPilot_Debug CMakeFiles/GitHubCoPilot.dir/Examples/GitHubCoPilot/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/GitHubCoPilot: CXX_EXECUTABLE_LINKER__GitHubCoPilot_Debug CMakeFiles/GitHubCoPilot.dir/Examples/GitHubCoPilot/main.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/GitHubCoPilot.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = GitHubCoPilot
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/GitHubCoPilot
   TARGET_PDB = GitHubCoPilot.dbg
 
 # =============================================================================
@@ -426,14 +426,14 @@ build CMakeFiles/ArtistAndArtwork.dir/Examples/Week1/PrimitiveDataTypes/main.c.o
 
 
 #############################################
-# Link the executable ArtistAndArtwork
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/ArtistAndArtwork
 
-build ArtistAndArtwork: CXX_EXECUTABLE_LINKER__ArtistAndArtwork_Debug CMakeFiles/ArtistAndArtwork.dir/Examples/ArtistAndArtwork/main.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/ArtistAndArtwork/Artist.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/ArtistAndArtwork/Artwork.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/Week1/PrimitiveDataTypes/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/ArtistAndArtwork: CXX_EXECUTABLE_LINKER__ArtistAndArtwork_Debug CMakeFiles/ArtistAndArtwork.dir/Examples/ArtistAndArtwork/main.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/ArtistAndArtwork/Artist.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/ArtistAndArtwork/Artwork.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/Week1/PrimitiveDataTypes/main.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = ArtistAndArtwork
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/ArtistAndArtwork
   TARGET_PDB = ArtistAndArtwork.dbg
 
 # =============================================================================
@@ -463,14 +463,14 @@ build CMakeFiles/PointerCar.dir/Examples/PointerCar/PointerCar.c.o: C_COMPILER__
 
 
 #############################################
-# Link the executable PointerCar
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/PointerCar
 
-build PointerCar: C_EXECUTABLE_LINKER__PointerCar_Debug CMakeFiles/PointerCar.dir/Examples/PointerCar/main.c.o CMakeFiles/PointerCar.dir/Examples/PointerCar/PointerCar.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/PointerCar: C_EXECUTABLE_LINKER__PointerCar_Debug CMakeFiles/PointerCar.dir/Examples/PointerCar/main.c.o CMakeFiles/PointerCar.dir/Examples/PointerCar/PointerCar.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/PointerCar.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = PointerCar
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/PointerCar
   TARGET_PDB = PointerCar.dbg
 
 # =============================================================================
@@ -500,14 +500,14 @@ build CMakeFiles/SimpleCar.dir/Examples/SimpleCar/SimpleCar.c.o: C_COMPILER__Sim
 
 
 #############################################
-# Link the executable SimpleCar
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/SimpleCar
 
-build SimpleCar: C_EXECUTABLE_LINKER__SimpleCar_Debug CMakeFiles/SimpleCar.dir/Examples/SimpleCar/main.c.o CMakeFiles/SimpleCar.dir/Examples/SimpleCar/SimpleCar.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/SimpleCar: C_EXECUTABLE_LINKER__SimpleCar_Debug CMakeFiles/SimpleCar.dir/Examples/SimpleCar/main.c.o CMakeFiles/SimpleCar.dir/Examples/SimpleCar/SimpleCar.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/SimpleCar.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = SimpleCar
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/SimpleCar
   TARGET_PDB = SimpleCar.dbg
 
 
@@ -536,6 +536,30 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build ArtistAndArtwork: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/ArtistAndArtwork
+
+build BasicLinkedList: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/BasicLinkedList
+
+build BasicPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/BasicPointers
+
+build CSVFileReader: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader
+
+build Declarations: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations
+
+build FileReader: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader
+
+build FormatSpecifiers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers
+
+build GitHubCoPilot: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/GitHubCoPilot
+
+build HelloWorldCPP: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/HelloWorldCPP
+
+build MultipleClasses: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/MultipleClasses
+
+build PointerCar: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/PointerCar
+
+build SimpleCar: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/SimpleCar
+
 # =============================================================================
 # Folder targets.
 
@@ -544,7 +568,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld PrimitiveDataTypes FileReader CSVFileReader Declarations FormatSpecifiers HelloWorldCPP BasicLinkedList MultipleClasses BasicPointers GitHubCoPilot ArtistAndArtwork PointerCar SimpleCar
+build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/GitHubCoPilot /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/SimpleCar
 
 # =============================================================================
 # Built-in targets
