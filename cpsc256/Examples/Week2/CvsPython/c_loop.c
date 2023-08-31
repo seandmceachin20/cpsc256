@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 int main(int argc, char **argv) {
-	int NUMBER;
+	int number_of_iterations;
 	int s = 0;
-	NUMBER = atoi(argv[1])*1000000;
-	for (int i = 0; i<NUMBER; ++i){
+	number_of_iterations = atoi(argv[1])*1000000;
+	for (int i = 0; i<number_of_iterations; ++i){
 		s +=1;
 	}
 	printf("C s: %d", s);
