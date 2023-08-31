@@ -1,4 +1,5 @@
 /Users/brash/CLionProjects/cpsc256/cmake-build-debug/CMakeFiles/HelloWorld.dir
+/Users/brash/CLionProjects/cpsc256/cmake-build-debug/CMakeFiles/FileReader.dir
 /Users/brash/CLionProjects/cpsc256/cmake-build-debug/CMakeFiles/PrimitiveDataTypes.dir
 /Users/brash/CLionProjects/cpsc256/cmake-build-debug/CMakeFiles/FloatingPointBinaryRepresentation.dir
 /Users/brash/CLionProjects/cpsc256/cmake-build-debug/CMakeFiles/FloatingPointBinary64.dir
