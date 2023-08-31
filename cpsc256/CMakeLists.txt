@@ -15,6 +15,7 @@ add_executable(CSVFileReader Examples/Week2/CSVFileReader/main.c)
 
 add_executable(Declarations Examples/Declarations/main.c)
 add_executable(FormatSpecifiers Examples/Week3/FormatSpecifiers/main.c)
+add_executable(FunctionExample Examples/Week3/FunctionExample/main.c)
 
 add_executable(HelloWorldCPP Examples/HelloWorldCPP/main.cpp)
 add_executable(BasicLinkedList Examples/BasicLinkedList/main.cpp Examples/BasicLinkedList/IntNode.cpp)
