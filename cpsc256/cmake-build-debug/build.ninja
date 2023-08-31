@@ -109,6 +109,108 @@ build PrimitiveDataTypes: C_EXECUTABLE_LINKER__PrimitiveDataTypes_Debug CMakeFil
   TARGET_PDB = PrimitiveDataTypes.pdb
 
 # =============================================================================
+# Object build statements for EXECUTABLE target FileReader
+
+
+#############################################
+# Order-only phony target for FileReader
+
+build cmake_object_order_depends_target_FileReader: phony || CMakeFiles/FileReader.dir
+
+build CMakeFiles/FileReader.dir/Examples/FileReader/main.c.o: C_COMPILER__FileReader_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/FileReader/main.c || cmake_object_order_depends_target_FileReader
+  DEP_FILE = CMakeFiles/FileReader.dir/Examples/FileReader/main.c.o.d
+  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/FileReader.dir
+  OBJECT_FILE_DIR = CMakeFiles/FileReader.dir/Examples/FileReader
+  TARGET_COMPILE_PDB = CMakeFiles/FileReader.dir/
+  TARGET_PDB = FileReader.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FileReader
+
+
+#############################################
+# Link the executable FileReader
+
+build FileReader: C_EXECUTABLE_LINKER__FileReader_Debug CMakeFiles/FileReader.dir/Examples/FileReader/main.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/FileReader.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/FileReader.dir/
+  TARGET_FILE = FileReader
+  TARGET_PDB = FileReader.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target CSVFileReader
+
+
+#############################################
+# Order-only phony target for CSVFileReader
+
+build cmake_object_order_depends_target_CSVFileReader: phony || CMakeFiles/CSVFileReader.dir
+
+build CMakeFiles/CSVFileReader.dir/Examples/CSVFileReader/main.c.o: C_COMPILER__CSVFileReader_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/CSVFileReader/main.c || cmake_object_order_depends_target_CSVFileReader
+  DEP_FILE = CMakeFiles/CSVFileReader.dir/Examples/CSVFileReader/main.c.o.d
+  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/CSVFileReader.dir
+  OBJECT_FILE_DIR = CMakeFiles/CSVFileReader.dir/Examples/CSVFileReader
+  TARGET_COMPILE_PDB = CMakeFiles/CSVFileReader.dir/
+  TARGET_PDB = CSVFileReader.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CSVFileReader
+
+
+#############################################
+# Link the executable CSVFileReader
+
+build CSVFileReader: C_EXECUTABLE_LINKER__CSVFileReader_Debug CMakeFiles/CSVFileReader.dir/Examples/CSVFileReader/main.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/CSVFileReader.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/CSVFileReader.dir/
+  TARGET_FILE = CSVFileReader
+  TARGET_PDB = CSVFileReader.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Declarations
+
+
+#############################################
+# Order-only phony target for Declarations
+
+build cmake_object_order_depends_target_Declarations: phony || CMakeFiles/Declarations.dir
+
+build CMakeFiles/Declarations.dir/Examples/Declarations/main.c.o: C_COMPILER__Declarations_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Declarations/main.c || cmake_object_order_depends_target_Declarations
+  DEP_FILE = CMakeFiles/Declarations.dir/Examples/Declarations/main.c.o.d
+  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Declarations.dir
+  OBJECT_FILE_DIR = CMakeFiles/Declarations.dir/Examples/Declarations
+  TARGET_COMPILE_PDB = CMakeFiles/Declarations.dir/
+  TARGET_PDB = Declarations.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Declarations
+
+
+#############################################
+# Link the executable Declarations
+
+build Declarations: C_EXECUTABLE_LINKER__Declarations_Debug CMakeFiles/Declarations.dir/Examples/Declarations/main.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/Declarations.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/Declarations.dir/
+  TARGET_FILE = Declarations
+  TARGET_PDB = Declarations.pdb
+
+# =============================================================================
 # Object build statements for EXECUTABLE target FloatingPointBinaryRepresentation
 
 
@@ -209,40 +311,6 @@ build HelloWorldCPP: CXX_EXECUTABLE_LINKER__HelloWorldCPP_Debug CMakeFiles/Hello
   TARGET_COMPILE_PDB = CMakeFiles/HelloWorldCPP.dir/
   TARGET_FILE = HelloWorldCPP
   TARGET_PDB = HelloWorldCPP.pdb
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Declarations
-
-
-#############################################
-# Order-only phony target for Declarations
-
-build cmake_object_order_depends_target_Declarations: phony || CMakeFiles/Declarations.dir
-
-build CMakeFiles/Declarations.dir/Examples/Declarations/main.c.o: C_COMPILER__Declarations_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Declarations/main.c || cmake_object_order_depends_target_Declarations
-  DEP_FILE = CMakeFiles/Declarations.dir/Examples/Declarations/main.c.o.d
-  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/Declarations.dir
-  OBJECT_FILE_DIR = CMakeFiles/Declarations.dir/Examples/Declarations
-  TARGET_COMPILE_PDB = CMakeFiles/Declarations.dir/
-  TARGET_PDB = Declarations.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Declarations
-
-
-#############################################
-# Link the executable Declarations
-
-build Declarations: C_EXECUTABLE_LINKER__Declarations_Debug CMakeFiles/Declarations.dir/Examples/Declarations/main.c.o
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  OBJECT_DIR = CMakeFiles/Declarations.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Declarations.dir/
-  TARGET_FILE = Declarations
-  TARGET_PDB = Declarations.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BasicLinkedList
@@ -564,7 +632,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld PrimitiveDataTypes FloatingPointBinaryRepresentation FloatingPointBinary64 HelloWorldCPP Declarations BasicLinkedList MultipleClasses BasicPointers GitHubCoPilot ArtistAndArtwork PointerCar SimpleCar
+build all: phony HelloWorld PrimitiveDataTypes FileReader CSVFileReader Declarations FloatingPointBinaryRepresentation FloatingPointBinary64 HelloWorldCPP BasicLinkedList MultipleClasses BasicPointers GitHubCoPilot ArtistAndArtwork PointerCar SimpleCar
 
 # =============================================================================
 # Built-in targets
