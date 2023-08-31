@@ -13,7 +13,7 @@ add_executable(FileReader Examples/Week2/FileReader/main.c)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Week2/CSVFileReader)
 add_executable(CSVFileReader Examples/Week2/CSVFileReader/main.c)
 
-add_executable(Declarations Examples/Week2/Declarations/main.c)
+add_executable(Declarations Examples/Declarations/main.c)
 add_executable(FormatSpecifiers Examples/Week3/FormatSpecifiers/main.c)
 
 add_executable(HelloWorldCPP Examples/HelloWorldCPP/main.cpp)

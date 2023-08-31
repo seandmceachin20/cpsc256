@@ -173,11 +173,11 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileRea
 
 build cmake_object_order_depends_target_Declarations: phony || CMakeFiles/Declarations.dir
 
-build CMakeFiles/Declarations.dir/Examples/Week2/Declarations/main.c.o: C_COMPILER__Declarations_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week2/Declarations/main.c || cmake_object_order_depends_target_Declarations
-  DEP_FILE = CMakeFiles/Declarations.dir/Examples/Week2/Declarations/main.c.o.d
+build CMakeFiles/Declarations.dir/Examples/Declarations/main.c.o: C_COMPILER__Declarations_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Declarations/main.c || cmake_object_order_depends_target_Declarations
+  DEP_FILE = CMakeFiles/Declarations.dir/Examples/Declarations/main.c.o.d
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Declarations.dir
-  OBJECT_FILE_DIR = CMakeFiles/Declarations.dir/Examples/Week2/Declarations
+  OBJECT_FILE_DIR = CMakeFiles/Declarations.dir/Examples/Declarations
 
 
 # =============================================================================
@@ -187,7 +187,7 @@ build CMakeFiles/Declarations.dir/Examples/Week2/Declarations/main.c.o: C_COMPIL
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations: C_EXECUTABLE_LINKER__Declarations_Debug CMakeFiles/Declarations.dir/Examples/Week2/Declarations/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations: C_EXECUTABLE_LINKER__Declarations_Debug CMakeFiles/Declarations.dir/Examples/Declarations/main.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/Declarations.dir
   POST_BUILD = :

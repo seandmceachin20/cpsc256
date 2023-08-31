@@ -95,10 +95,10 @@ int main(int argc, char** argv) {
     printf("%9.6f\n",yp); // yp has 7 decimal places, so it will get ROUNDED to six
     printf("%9.6f\n",zp); // zp has 5 decimal places, so extra zero will be added at the end
     printf("%9.6f\n",tp); // tp has 5 decimal places, so expect extra zero will be added.
-                          // this will make the number be 123.345670, which has 10 characters
+                          // this will make the number be 123.456780, which has 10 characters
                           // in its field.  This is okay, since the "9" in 9.6 specified a
-                          // MINIMUM field width. However, what we see instead is 123.345673???
-                          // This is because 123.245670 exceeds the precision limit of float!!!
+                          // MINIMUM field width. However, what we see instead is 123.456779???
+                          // This is because 123.456780 exceeds the precision limit of float!!!
                           // A great example of why we should just use double!!!
     printf("\n");
     
@@ -109,7 +109,7 @@ int main(int argc, char** argv) {
     printf("%9.6f\n",xpd); // xpd has 6 decimal places
     printf("%9.6f\n",ypd); // ypd has 7 decimal places, so it will get ROUNDED to six
     printf("%9.6f\n",zpd); // zpd has 5 decimal places, so extra zero will be added at the end
-    printf("%9.6f\n",tpd); // now, indeed we get 123.345670, as expected!!!
+    printf("%9.6f\n",tpd); // now, indeed we get 123.3456780, as expected!!!
     printf("\n");
     
     //Illustrate alignment with int/float/double
