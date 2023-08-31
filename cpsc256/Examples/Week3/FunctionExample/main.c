@@ -60,7 +60,9 @@ int main(){
         printf("numbers[%d]=%d \n",i,numbers[i]);
     }
 
-    // Call the function which finds the minimum of the array
+    // Pass by Reference: The function gets the address of the variable.
+    //
+    // Call a function which finds the minimum of the array
     // and prints it
     //
     // NOTE: The array is passed by reference, so the function
@@ -82,8 +84,8 @@ int main(){
     // We can do this by passing the array by reference, but it is a little
     // more complicated than passing a single variable by reference.
 
-    // This means that the function gets the address of the array
-    // and can change the values in the array.
+    // This means that the function must get the address of the array
+    // and then can change the values in the array.
 
     // We do this by passing the address of the array to the function.
     // The function then needs to know that it is getting an address
