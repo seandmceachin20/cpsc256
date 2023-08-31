@@ -14,6 +14,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 
 #define LINE 80  // define can be used to define GLOBAL variables
                  // this is super useful for certain things that might
@@ -54,6 +55,9 @@ int main(int argc, char** argv) {
    
     scanf("%s",filename);
     printf("Filename = %s\n",filename);
+
+    char buf[1024]; // hack, but fine for this
+    printf("Current working directory = %s\n", getcwd(buf, 1024));
     
     /* Open the file for reading */
     inFile = fopen(filename, "r");
