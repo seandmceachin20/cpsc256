@@ -104,16 +104,18 @@ int main(){
 
     // Now p contains the address of a.
     // We can print the address of a by using the %p format specifier.
-    printf("Address of a: %p \n",p);
+    printf("Address of a (using address operator): %p \n",&a);
+    printf("Address of a (value of pointer, p): %p \n",p);
 
     // We can also print the value of a by using the * operator.
-    printf("Value of a: %d \n",*p);
+    printf("Value of a (dereferencing pointer): %d \n",*p);
+    printf("\n");
 
     // We can change the value of a by using the * operator.
     // This is called dereferencing the pointer.
-    printf("Value of a: %d \n",a);
+    printf("Value of a before: %d \n",a);
     *p=20;
-    printf("Value of a: %d \n",a);
+    printf("Value of a after: %d \n",a);
     printf("\n");
 
     a = 10; b=20;

@@ -14,7 +14,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h> // need this to get variables like NULL, for example
-#include <math.h>   // need this for things like pow(), sqrt(), on some systems
 
 /*
  * Program to calculate the mean and standard deviation of a set of
@@ -22,11 +21,7 @@
  * 
  */
 
-double mean(double [], int); // prototype for mean function
-double stdev(double [], int); // protoype for standard deviation function
-                             // Even though we define these functions in this 
-                             // C file, we MUST ALWAYS define prototypes for all
-                             // new functions!
+#include "functions.h" // include the header file for our functions
 
 int main(int argc, char** argv) {
     
@@ -64,41 +59,4 @@ int main(int argc, char** argv) {
     }
 
     return (EXIT_SUCCESS);
-}
-
-double mean(double a[], int na) {
-    double sum = 0.0;
-    for (int i=0; i<na; i++) {
-        sum = sum + a[i];
-    }
-    double mean = sum/na;
-    
-    printf("\n");
-    printf("mean: Address of first element of a, in mean() function: %p\n",a);
-    printf("mean: Address of na, in mean() function: %p\n",&na);
-    printf("\n");
-    
-    return mean;
-}
-
-double stdev(double b[], int nb) {
-    
-    printf("\n");
-    printf("stdev: Calling mean function from stdev() ... \n");
-    double localmean = mean(b,nb);
-    double sum = 0.0;
-    
-    for (int i=0;i<nb;i++) {
-        sum = sum + pow((b[i]-localmean),2);
-    }
-    
-    sum = sum / (nb-1);
-    double stdev = sqrt(sum);
-    
-    printf("stdev: Address of first element of b, in stdev() function: %p\n",b);
-    printf("stdev: Address of nb, in stdev() function: %p\n",&nb);
-    printf("\n");
-    
-    
-    return stdev;
 }
