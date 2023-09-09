@@ -6,6 +6,7 @@ void swap_values_copy(int a, int b){
     a=b;
     b=temp;
     printf("a=%d b=%d \n",a,b);
+    return;
 }
 
 void swap_values(int* a, int* b){
@@ -14,9 +15,11 @@ void swap_values(int* a, int* b){
     *a=*b;
     *b=temp;
     printf("a=%d b=%d \n",*a,*b);
+    return;
 }
 
 int minarray(int arr[], int size){
+    printf("The address of the first element of arr[] is %p\n",&arr[0]);
     int min=arr[0];
     int i=0;
     for(i=1;i<size;i++){
@@ -75,6 +78,7 @@ int main(){
     // important, because the function needs to know how many
     // elements are in the array.
 
+    printf("The address of the first element of numbers[] is %p\n",&numbers[0]);
     min=minarray(numbers,6);//passing array with size
     printf("minimum number is %d \n",min);
     printf("\n");
