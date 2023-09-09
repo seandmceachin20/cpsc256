@@ -24,6 +24,8 @@ add_executable(FileStatistics_Headers Examples/Week3/FileStatistics_Headers/main
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Week4/BasicPointers)
 add_executable(BasicPointers Examples/Week4/BasicPointers/main.c Examples/Week4/BasicPointers/functions.c)
 
+add_executable(VoidPointers Examples/Week4/VoidPointers/main.c)
+
 add_executable(HelloWorldCPP Examples/HelloWorldCPP/main.cpp)
 add_executable(BasicLinkedList Examples/BasicLinkedList/main.cpp Examples/BasicLinkedList/IntNode.cpp)
 add_executable(MultipleClasses Examples/MultipleClasses/main.cpp)
