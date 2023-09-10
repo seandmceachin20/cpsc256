@@ -412,6 +412,37 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointe
   TARGET_PDB = VoidPointers.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target QuickSort
+
+
+#############################################
+# Order-only phony target for QuickSort
+
+build cmake_object_order_depends_target_QuickSort: phony || CMakeFiles/QuickSort.dir
+
+build CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o: C_COMPILER__QuickSort_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week4/QuickSort/main.c || cmake_object_order_depends_target_QuickSort
+  DEP_FILE = CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o.d
+  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/QuickSort.dir
+  OBJECT_FILE_DIR = CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target QuickSort
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort: C_EXECUTABLE_LINKER__QuickSort_Debug CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/QuickSort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort
+  TARGET_PDB = QuickSort.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target HelloWorldCPP
 
 
@@ -718,6 +749,8 @@ build MultipleClasses: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/B
 
 build PointerCar: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar
 
+build QuickSort: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort
+
 build SimpleCar: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
 
 build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers
@@ -730,7 +763,7 @@ build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Basi
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/GitHubCoPilot /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
+build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/GitHubCoPilot /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
 
 # =============================================================================
 # Built-in targets

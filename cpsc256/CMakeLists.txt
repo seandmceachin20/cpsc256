@@ -25,11 +25,12 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/Examples/Week4/BasicPoi
 add_executable(BasicPointers Examples/Week4/BasicPointers/main.c Examples/Week4/BasicPointers/functions.c)
 
 add_executable(VoidPointers Examples/Week4/VoidPointers/main.c)
+add_executable(QuickSort Examples/Week4/QuickSort/main.c)
 
+# Other Examples
 add_executable(HelloWorldCPP Examples/HelloWorldCPP/main.cpp)
 add_executable(BasicLinkedList Examples/BasicLinkedList/main.cpp Examples/BasicLinkedList/IntNode.cpp)
 add_executable(MultipleClasses Examples/MultipleClasses/main.cpp)
-
 add_executable(GitHubCoPilot Examples/GitHubCoPilot/main.cpp)
 add_executable(ArtistAndArtwork Examples/ArtistAndArtwork/main.cpp Examples/ArtistAndArtwork/Artist.cpp Examples/ArtistAndArtwork/Artwork.cpp
         Examples/Week1/PrimitiveDataTypes/main.c)
