@@ -173,11 +173,11 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileRea
 
 build cmake_object_order_depends_target_Declarations: phony || CMakeFiles/Declarations.dir
 
-build CMakeFiles/Declarations.dir/Examples/Declarations/main.c.o: C_COMPILER__Declarations_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Declarations/main.c || cmake_object_order_depends_target_Declarations
-  DEP_FILE = CMakeFiles/Declarations.dir/Examples/Declarations/main.c.o.d
+build CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o: C_COMPILER__Declarations_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/main.c || cmake_object_order_depends_target_Declarations
+  DEP_FILE = CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o.d
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Declarations.dir
-  OBJECT_FILE_DIR = CMakeFiles/Declarations.dir/Examples/Declarations
+  OBJECT_FILE_DIR = CMakeFiles/Declarations.dir/Examples/Week3/Declarations
 
 
 # =============================================================================
@@ -187,7 +187,7 @@ build CMakeFiles/Declarations.dir/Examples/Declarations/main.c.o: C_COMPILER__De
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations: C_EXECUTABLE_LINKER__Declarations_Debug CMakeFiles/Declarations.dir/Examples/Declarations/main.c.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations: C_EXECUTABLE_LINKER__Declarations_Debug CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/Declarations.dir
   POST_BUILD = :
@@ -443,6 +443,111 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort:
   TARGET_PDB = QuickSort.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Restaurant_C_Example
+
+
+#############################################
+# Order-only phony target for Restaurant_C_Example
+
+build cmake_object_order_depends_target_Restaurant_C_Example: phony || CMakeFiles/Restaurant_C_Example.dir
+
+build CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/main.c.o: C_COMPILER__Restaurant_C_Example_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/main.c || cmake_object_order_depends_target_Restaurant_C_Example
+  DEP_FILE = CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/main.c.o.d
+  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Restaurant_C_Example.dir
+  OBJECT_FILE_DIR = CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Restaurant_C_Example
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example: C_EXECUTABLE_LINKER__Restaurant_C_Example_Debug CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/main.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/Restaurant_C_Example.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example
+  TARGET_PDB = Restaurant_C_Example.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PointerCar
+
+
+#############################################
+# Order-only phony target for PointerCar
+
+build cmake_object_order_depends_target_PointerCar: phony || CMakeFiles/PointerCar.dir
+
+build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/main.c.o: C_COMPILER__PointerCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/main.c || cmake_object_order_depends_target_PointerCar
+  DEP_FILE = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/main.c.o.d
+  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/PointerCar.dir
+  OBJECT_FILE_DIR = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar
+
+build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o: C_COMPILER__PointerCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar.c || cmake_object_order_depends_target_PointerCar
+  DEP_FILE = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o.d
+  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/PointerCar.dir
+  OBJECT_FILE_DIR = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PointerCar
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar: C_EXECUTABLE_LINKER__PointerCar_Debug CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/main.c.o CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/PointerCar.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar
+  TARGET_PDB = PointerCar.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SimpleCar
+
+
+#############################################
+# Order-only phony target for SimpleCar
+
+build cmake_object_order_depends_target_SimpleCar: phony || CMakeFiles/SimpleCar.dir
+
+build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/main.c.o: C_COMPILER__SimpleCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/main.c || cmake_object_order_depends_target_SimpleCar
+  DEP_FILE = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/main.c.o.d
+  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/SimpleCar.dir
+  OBJECT_FILE_DIR = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar
+
+build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o: C_COMPILER__SimpleCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar.c || cmake_object_order_depends_target_SimpleCar
+  DEP_FILE = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o.d
+  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/SimpleCar.dir
+  OBJECT_FILE_DIR = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SimpleCar
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar: C_EXECUTABLE_LINKER__SimpleCar_Debug CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/main.c.o CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/SimpleCar.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
+  TARGET_PDB = SimpleCar.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target HelloWorldCPP
 
 
@@ -621,80 +726,6 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndA
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork
   TARGET_PDB = ArtistAndArtwork.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target PointerCar
-
-
-#############################################
-# Order-only phony target for PointerCar
-
-build cmake_object_order_depends_target_PointerCar: phony || CMakeFiles/PointerCar.dir
-
-build CMakeFiles/PointerCar.dir/Examples/PointerCar/main.c.o: C_COMPILER__PointerCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/PointerCar/main.c || cmake_object_order_depends_target_PointerCar
-  DEP_FILE = CMakeFiles/PointerCar.dir/Examples/PointerCar/main.c.o.d
-  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/PointerCar.dir
-  OBJECT_FILE_DIR = CMakeFiles/PointerCar.dir/Examples/PointerCar
-
-build CMakeFiles/PointerCar.dir/Examples/PointerCar/PointerCar.c.o: C_COMPILER__PointerCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/PointerCar/PointerCar.c || cmake_object_order_depends_target_PointerCar
-  DEP_FILE = CMakeFiles/PointerCar.dir/Examples/PointerCar/PointerCar.c.o.d
-  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/PointerCar.dir
-  OBJECT_FILE_DIR = CMakeFiles/PointerCar.dir/Examples/PointerCar
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target PointerCar
-
-
-#############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar
-
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar: C_EXECUTABLE_LINKER__PointerCar_Debug CMakeFiles/PointerCar.dir/Examples/PointerCar/main.c.o CMakeFiles/PointerCar.dir/Examples/PointerCar/PointerCar.c.o
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  OBJECT_DIR = CMakeFiles/PointerCar.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar
-  TARGET_PDB = PointerCar.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target SimpleCar
-
-
-#############################################
-# Order-only phony target for SimpleCar
-
-build cmake_object_order_depends_target_SimpleCar: phony || CMakeFiles/SimpleCar.dir
-
-build CMakeFiles/SimpleCar.dir/Examples/SimpleCar/main.c.o: C_COMPILER__SimpleCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/SimpleCar/main.c || cmake_object_order_depends_target_SimpleCar
-  DEP_FILE = CMakeFiles/SimpleCar.dir/Examples/SimpleCar/main.c.o.d
-  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/SimpleCar.dir
-  OBJECT_FILE_DIR = CMakeFiles/SimpleCar.dir/Examples/SimpleCar
-
-build CMakeFiles/SimpleCar.dir/Examples/SimpleCar/SimpleCar.c.o: C_COMPILER__SimpleCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/SimpleCar/SimpleCar.c || cmake_object_order_depends_target_SimpleCar
-  DEP_FILE = CMakeFiles/SimpleCar.dir/Examples/SimpleCar/SimpleCar.c.o.d
-  FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/SimpleCar.dir
-  OBJECT_FILE_DIR = CMakeFiles/SimpleCar.dir/Examples/SimpleCar
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target SimpleCar
-
-
-#############################################
-# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
-
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar: C_EXECUTABLE_LINKER__SimpleCar_Debug CMakeFiles/SimpleCar.dir/Examples/SimpleCar/main.c.o CMakeFiles/SimpleCar.dir/Examples/SimpleCar/SimpleCar.c.o
-  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  OBJECT_DIR = CMakeFiles/SimpleCar.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
-  TARGET_PDB = SimpleCar.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -751,6 +782,8 @@ build PointerCar: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicP
 
 build QuickSort: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort
 
+build Restaurant_C_Example: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example
+
 build SimpleCar: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
 
 build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers
@@ -763,7 +796,7 @@ build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Basi
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/GitHubCoPilot /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
+build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/GitHubCoPilot /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork
 
 # =============================================================================
 # Built-in targets
