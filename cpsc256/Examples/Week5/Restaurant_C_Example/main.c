@@ -1,10 +1,4 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/* 
  * File:   main.c
  * Author: brash
  *
@@ -15,7 +9,7 @@
 #include <stdlib.h>
 
 /*
- * 
+ *  Simple program to illustrate the use of structures in C
  */
 
 typedef struct Restaurant_struct {
@@ -33,6 +27,8 @@ int main(int argc, char** argv) {
     Restaurant mickeydees;
     
     moes.rating = 3;
+    schooners.rating = 5;
+    mickeydees.rating = 1;
 
     return (EXIT_SUCCESS);
 }
