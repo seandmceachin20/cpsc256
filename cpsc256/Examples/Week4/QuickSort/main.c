@@ -14,7 +14,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 int compare_double(const void* ap, const void* bp) {
     

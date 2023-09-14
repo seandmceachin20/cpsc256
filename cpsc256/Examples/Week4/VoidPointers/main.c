@@ -56,7 +56,7 @@ int main(int argc, char** argv) {
     // When we use the printBytes function, we will see that we now have a problem
     // because the printBytes function is expecting 4 bytes per integer, but
     // we have 8 bytes per integer
-    long long arr_long[] = {16, 31, 32, 65}; // 32 bytes total = 4 x 8 bytes
+    long long int arr_long[] = {16, 31, 32, 65}; // 32 bytes total = 4 x 8 bytes
     printBytes(arr_long, 4);
     printf(" ... We have a problem!\n");
     printf("\n\n");

@@ -12,19 +12,13 @@
  */
 
 #include <iostream> //cout, endl, fixed
-#include <cstdlib>
 #include <iomanip> //setprecision, setw
 #include <cmath> //C math library functions
 #include <string> // The string class
 
 using namespace std;
 
-/*
- * 
- */
 int main(int argc, char** argv) {
-
-  // Adding a comment in replit
     
     cout << "Hello World!" << endl;
     
@@ -97,7 +91,6 @@ int main(int argc, char** argv) {
     getline(cin,sphrase);
     
     cout << "Name = <" << sphrase << ">" << endl;
-    
 
     return 0;
 }

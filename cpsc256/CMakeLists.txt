@@ -30,9 +30,5 @@ add_executable(PointerCar Examples/Week5/PointerCar/main.c Examples/Week5/Pointe
 add_executable(SimpleCar Examples/Week5/SimpleCar/main.c Examples/Week5/SimpleCar/SimpleCar.c)
 
 # Other Examples
-add_executable(HelloWorldCPP Examples/HelloWorldCPP/main.cpp)
-add_executable(BasicLinkedList Examples/BasicLinkedList/main.cpp Examples/BasicLinkedList/IntNode.cpp)
-add_executable(MultipleClasses Examples/MultipleClasses/main.cpp)
-add_executable(GitHubCoPilot Examples/GitHubCoPilot/main.cpp)
-add_executable(ArtistAndArtwork Examples/ArtistAndArtwork/main.cpp Examples/ArtistAndArtwork/Artist.cpp Examples/ArtistAndArtwork/Artwork.cpp
-        Examples/Week1/PrimitiveDataTypes/main.c)
+add_executable(HelloWorldCPP Examples/Week6/HelloWorldCPP/main.cpp)
+add_executable(BasicObjects Examples/Week6/BasicObjects/main.cpp Examples/Week6/BasicObjects/Restaurant.cpp)
